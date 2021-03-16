@@ -1,0 +1,138 @@
+.inst{
+    padding: 3px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 35px;
+}
+#chto{
+    color: black;
+}
+.dropdown, .dropleft, .dropright, .dropup {
+    position: relative;
+    margin-top: auto;
+}
+.headerfoto{
+    display: flex;
+    justify-content: space-between;
+}
+.cuerpo{
+    
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+
+}
+.padre{
+    /* margin: 20px; */
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.titulo{
+    background-color:rgb(226, 219, 219);
+    /* border:solid 2px blue; */
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.puntitos{
+   flex-grow: 1;
+   display: flex;
+   justify-content: flex-end;
+}
+.item{
+    padding: 8px;
+    margin: 3px;
+}
+.foot{
+    
+    background-color: rgb(226, 219, 219);
+    /* border:solid 2px blue; */
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+
+}
+.imagen{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* margin: 3px;
+    border-radius: 3px; */
+
+}
+.descripcion{
+    background-color: white;
+    text-overflow: ellipsis;
+    /* border:solid 2px blue; */
+    padding: 8px;
+}
+p{
+    max-width: fit-content;
+}
+.iconitos{
+    border: none;
+    background-color: transparent;
+    
+}
+.iconitos:hover{
+    color: red;
+}
+.iconitos:focus{
+    outline: none;
+  box-shadow: none;
+}
+/* #barra{
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ef4810;
+    padding: 5px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+} */
+.pinchila{
+    margin: 2px;
+}
+.foto-grilla{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.post-b{
+    border: 2px solid gray;
+}
+body{
+    background-color: black;
+}
+.denunciar{
+    color: red;
+}
+
+.modal-backdrop{
+    z-index: 10;
+}
+.inputext{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.caja{
+    padding: 0px;
+    height: 60px;
+}
+.cancel{
+    background-color: palevioletred;
+}
+.publish{
+    background-color: seagreen;
+}
