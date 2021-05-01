@@ -10,18 +10,19 @@
     position: relative;
     margin-top: auto;
 }
-.headerfoto{
+/* .headerfoto{
     display: flex;
     justify-content: space-between;
-}
-.cuerpo{
+} */
+.bodyI{
     
     display: flex;
     justify-content:center ;
     flex-direction: column;
+    width: 35vw;
 
 }
-.padre{
+.father{
     /* margin: 20px; */
     padding: 20px;
     background-color: black;
@@ -31,7 +32,7 @@
     /* flex-direction: column; */
 }
 
-.titulo{
+.titlePhoto{
     background-color:rgb(226, 219, 219);
     /* border:solid 2px blue; */
     display: flex;
@@ -39,7 +40,7 @@
     
 
 }
-.puntitos{
+.points{
    flex-grow: 1;
    display: flex;
    justify-content: flex-end;
@@ -57,7 +58,7 @@
     padding: 8px;
 
 }
-.imagen{
+.image{
     background-color: white;
     display: flex;
     justify-content: center;
@@ -66,7 +67,7 @@
     border-radius: 3px; */
 
 }
-.descripcion{
+.description{
     background-color: white;
     text-overflow: ellipsis;
     /* border:solid 2px blue; */
@@ -75,36 +76,23 @@
 p{
     max-width: fit-content;
 }
-.iconitos{
+.icons{
     border: none;
     background-color: transparent;
     
 }
-.iconitos:hover{
+.icons:hover{
     color: red;
 }
-.iconitos:focus{
+.icons:focus{
     outline: none;
   box-shadow: none;
 }
-/* #barra{
-    position: fixed;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ef4810;
-    padding: 5px;
-    padding-left: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-} */
-.pinchila{
+
+.linkIcon{
     margin: 2px;
 }
-.foto-grilla{
+.photoGrid{
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -114,7 +102,7 @@ p{
 body{
     background-color: black;
 }
-.denunciar{
+.denunonce{
     color: red;
 }
 
@@ -126,7 +114,7 @@ body{
     height: 100%;
     border: none;
 }
-.caja{
+.box{
     padding: 0px;
     height: 60px;
 }
